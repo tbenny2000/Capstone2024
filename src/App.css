@@ -1,0 +1,76 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  background-color: #e0f7d5;
+}
+
+.navbar {
+  width: 100%;
+  max-width: 1200px;
+  background-color: #4caf50;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+  /* Center the navbar with some top margin */
+  position: relative;
+  /* Ensure the navbar has a non-static position */
+}
+
+.nav-item {
+  padding: 5px 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+  position: relative;
+  /* Ensure the nav items have a non-static position */
+}
+
+.footer {
+  width: 100%;
+  max-width: 1200px;
+  background-color: #4caf50;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  /* Adjust the margin as needed */
+  margin-bottom: 20px;
+  /* Adjust the margin as needed */
+  margin: 0 auto;
+  /* Center the footer */
+}
+
+.logout-button {
+  background-color: #ff0000;
+  /* Customize the background color */
+  color: #fff;
+  /* Customize the text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #cc0000;
+  /* Change background color on hover */
+}
+
+.container {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url('./components/BackgroundPet.png');
+}

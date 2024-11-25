@@ -1,0 +1,53 @@
+/* App.css */
+/* Other styles */
+
+/* Updated Navbar styles */
+.navbar {
+    width: 100%;
+    max-width: 1200px;
+    background-color: #4caf50;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    /* Center the navbar with some top margin */
+    position: relative;
+    /* Ensure the navbar has a non-static position */
+}
+
+.nav-item {
+    /* Styles for nav items */
+    position: relative;
+    /* Ensure the nav items have a non-static position */
+}
+
+.dropdown-content {
+    position: absolute;
+    top: calc(100% + 5px);
+    /* Position the dropdown content below the nav item */
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: none;
+    width: 100%;
+    /* Ensure the dropdown content spans the full width */
+}
+
+.nav-item:hover .dropdown-content {
+    display: block;
+    /* Display the dropdown content when hovering over the nav item */
+}
+
+.dropdown {
+    display: block;
+    /* Ensure the dropdown items appear vertically */
+    padding: 8px 0;
+    text-decoration: none;
+    color: #333;
+    /* Additional styles for dropdown items */
+}
+
+.dropdown:hover {
+    background-color: #f0f0f0;
+}

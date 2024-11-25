@@ -1,0 +1,42 @@
+/* Others.css */
+.others-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-right: 370px;
+    padding-left: 400px;
+}
+
+.other-animal-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.other-animal-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    /* Adjust width as needed */
+}
+
+.other-animal-profile img {
+    width: 150px;
+    /* Set a fixed width for all images */
+    height: 150px;
+    /* Set a fixed height for all images */
+    object-fit: cover;
+    /* Ensure the image covers its container */
+}
+
+.other-animal-info {
+    margin-top: 10px;
+}
+
+.search-container {
+    margin-bottom: 20px;
+    /* Adjust the margin as needed */
+}
