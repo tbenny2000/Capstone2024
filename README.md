@@ -6,7 +6,7 @@ Welcome to the Petfriends React project! This project is aimed at helping you co
 Installation
 To run this project on your computer, follow these steps:
 
-Clone the Repository: git clone https://github.com/bcaron518/Petfriends.git
+Clone the Repository: git clone https://github.com/tbenny2000/Capstone2024.git
 This will clone the project repository to your local machine.
 
 Navigate to the Project Directory: cd Petfriends
@@ -27,7 +27,7 @@ Installation Process More detailed.
 
 Clone the Repository: Open your terminal or command prompt and run the following command to clone the Petfriends repository:
 bash
-git clone https://github.com/bcaron518/Petfriends.git
+git clone https://github.com/tbenny2000/Capstone2024.git
 This command will create a new directory named Petfriends in your current location and clone the repository into it.
 Navigate to the Project Directory: Change into the Petfriends directory that was created by the cloning process:
 bash
